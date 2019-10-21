@@ -78,3 +78,22 @@
   50% { -webkit-transform: rotate(180deg); }
   100% { -webkit-transform: rotate(360deg); }
 }
+
+
+
+.loader4 {
+  border: 8px solid green;
+  border-radius: 25%;
+  border-top: 8px solid yellow;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 3s linear infinite; /* safari */
+  animation: spin 3s linear infinite;
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
