@@ -28,7 +28,7 @@
   width: 120px;
   height: 120px;
   -webkit-animation: spin 1.5s linear infinite; /* safari */
-  animation: spin 2s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 /* safari */
