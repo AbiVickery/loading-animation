@@ -104,3 +104,21 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
   50% { -webkit-transform: rotate(180deg); }
   100% { -webkit-transform: rotate(360deg); }
 }
+
+.loader5 {
+  border: 24px solid rgb(84, 123, 12);
+  border-radius: 25%;
+  border-top: 12px solid rgb(98, 141, 19);
+  border-bottom: 16px solid rgb(119, 167, 30);
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 4s linear infinite; /* safari */
+  animation: spin 3s linear infinite;
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
