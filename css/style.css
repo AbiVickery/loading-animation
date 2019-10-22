@@ -144,8 +144,8 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 .loader7 {
   border: 50px solid rgb(121, 12, 36);
   border-radius: 50%;
-  border-top: 25px solid rgb(121, 12, 36);
-  border-bottom: 15px solid rgb(121, 12, 36);
+  border-top: 25px solid rgb(131, 18, 42);
+  border-bottom: 15px solid rgb(143, 26, 51);
   width: 30px;
   height: 30px;
   -webkit-animation: spin 2.2s linear infinite; /*safari */
