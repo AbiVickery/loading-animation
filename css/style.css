@@ -88,9 +88,10 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 
 .loader4 {
-  border: 8px solid green;
+  border: 8px solid rgb(171, 41, 223);
   border-radius: 25%;
-  border-top: 8px solid yellow;
+  border-top: 8px solid rgb(187, 67, 235);
+  border-bottom: 8px solid rgb(187, 67, 235);
   width: 60px;
   height: 60px;
   -webkit-animation: spin 3s linear infinite; /* safari */
