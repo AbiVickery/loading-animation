@@ -158,3 +158,41 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
   50% { -webkit-transform: rotate(180deg); }
   100% { -webkit-transform: rotate(360deg); }
 }
+
+.loader8 {
+  border: 75px solid rgb(139, 0, 139);
+  border-radius: 65%;
+  border-top: 35px solid rgb(126, 0, 126);
+  border-bottom: 45px solid rgb(126, 0, 126);
+  width: 55px;
+  height: 55px;
+  -webkit-animation: spin 3.4s linear infinite; /* safari */
+  animation: spin 3.4s linear infinite;
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+.loader9 {
+  border: 100px solid rgb(233, 153, 4);
+  border-radius: 75%;
+  border-top: 75px solid rgb(240, 163, 20);
+  border-right: 65px solid rgb(236, 167, 39);
+  border-bottom: 45px solid rgb(233, 169, 51);
+  border-left: 35px solid seashell;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 1s linear infinite; /* safari */
+  animation: spin 1s linear infinite; 
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
