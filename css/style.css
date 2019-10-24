@@ -149,12 +149,12 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 
 .loader13 {
-  border: 16px solid red;
+  border: 16px solid rgb(255, 0, 0);
   border-radius: 50%;
-  border-top: 8px solid orange;
-  border-right: 8px solid yellowgreen;
-  border-bottom: 8px solid blue;
-  border-left: 8px solid red;
+  border-top: 8px solid rgb(255, 166, 0);
+  border-right: 8px solid rgb(154, 205, 50);
+  border-bottom: 8px solid rgb(0, 0, 255);
+  border-left: 8px solid rgb(255, 0, 0);
   width: 120px;
   height: 120px;
   -webkit-animation: spin .7s linear infinite; /* safari */
