@@ -318,3 +318,9 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
      background-position: 1280px;
  }
 }
+
+#fabian {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  size: 20px;
+  color: rgb(37, 187, 233);
+}
