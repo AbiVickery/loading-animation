@@ -127,6 +127,27 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 }
 
 
+.loader12 {
+  border: 16px solid purple;
+  border-radius: 50%;
+  border-top:8px solid rgb(221, 31, 63);
+  border-right: 8px solid rgb(21, 196, 187);
+  border-bottom: 8px solid rgb(40, 204, 25);
+  border-left: 8px solid rgb(212, 161, 20);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin .5s linear infinite; /* safari */
+  animation: spin .5s linear infinite;
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+
 .loader4 {
   border: 12px solid rgb(171, 41, 223);
   border-radius: 25%;
