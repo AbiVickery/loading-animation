@@ -187,6 +187,23 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
   100% { -webkit-transform: rotate(360deg); }
 }
 
+.loader15 {
+  border: 16px solid purple;
+  border-radius: 50%;
+  border-top: 16px solid cyan;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1.7s linear infinite; /* safari */
+  animation: spin 1.7s linear infinite;
+}
+
+/* safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
 .loader4 {
   border: 12px solid rgb(171, 41, 223);
   border-radius: 25%;
